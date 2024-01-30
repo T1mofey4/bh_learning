@@ -10,6 +10,8 @@ func main() {
 
 	if err == nil {
 		fmt.Println("Connection successful")
+	} else {
+		fmt.Println(err)
 	}
 
 	for i := 1; i <= 1024; i++ {
